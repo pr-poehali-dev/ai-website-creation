@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MagicWandIcon, Lightbulb, Zap, PaintBucket, Rocket, Code } from "lucide-react";
+import { Wand2, Lightbulb, Zap, PaintBucket, Rocket, Code } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import FeatureCard from "@/components/FeatureCard";
 import ProjectCard from "@/components/ProjectCard";
@@ -45,7 +45,7 @@ const Index = () => {
                   <div className="h-8 bg-background rounded w-2/3"></div>
                 </div>
                 <div className="absolute -top-6 -right-6 h-14 w-14 bg-primary rounded-full flex items-center justify-center text-white">
-                  <MagicWandIcon size={24} />
+                  <Wand2 size={24} />
                 </div>
               </div>
               <div className="absolute -bottom-8 -left-8 bg-accent p-4 rounded-lg shadow-lg">
@@ -98,7 +98,7 @@ const Index = () => {
               description="Встроенные инструменты для оптимизации сайта под поисковые системы"
             />
             <FeatureCard 
-              icon={MagicWandIcon}
+              icon={Wand2}
               title="Персонализация"
               description="Легко настраивайте любые элементы сайта под свой бренд и стиль"
             />
